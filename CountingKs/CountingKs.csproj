@@ -196,6 +196,10 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BaseApiController.cs" />
+    <Compile Include="Controllers\DiariesController.cs" />
+    <Compile Include="Controllers\DiaryEntriesController.cs" />
+    <Compile Include="Models\DiaryEntryModel.cs" />
+    <Compile Include="Models\DiaryModel.cs" />
     <Compile Include="Controllers\FoodsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MeasuresController.cs" />
@@ -209,6 +213,8 @@
     <Compile Include="Models\MeasureModel.cs" />
     <Compile Include="Models\ModelFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CountingKsIdentityService.cs" />
+    <Compile Include="Services\ICountingKsIdentityService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Start\Readme.txt" />
@@ -325,6 +331,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\BaseApi\" />
+    <Folder Include="Views\Diaries\" />
     <Folder Include="Views\Measures\" />
   </ItemGroup>
   <ItemGroup>

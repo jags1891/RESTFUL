@@ -7,6 +7,7 @@ namespace CountingKs.App_Start
     using System.Web;
     using System.Web.Http;
     using CountingKs.Data;
+    using CountingKs.Services;
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
     using Ninject;
     using Ninject.Web.Common;
@@ -69,6 +70,7 @@ namespace CountingKs.App_Start
         {
             kernel.Bind<ICountingKsRepository>().To<CountingKsRepository>();
             kernel.Bind<CountingKsContext>().To<CountingKsContext>();
+            kernel.Bind<ICountingKsIdentityService>().To<CountingKsIdentityService>();
         }        
     }
 }

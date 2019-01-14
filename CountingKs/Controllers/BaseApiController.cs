@@ -25,7 +25,7 @@ namespace CountingKs.Controllers
             get
             {
                 if (_modelFactory == null)
-                    _modelFactory = new ModelFactory(this.Request);
+                    _modelFactory = new ModelFactory(this.Request, _repo);
                 return _modelFactory;
             }
         }
@@ -39,4 +39,4 @@ namespace CountingKs.Controllers
         }
 
     }
-}
+}   
