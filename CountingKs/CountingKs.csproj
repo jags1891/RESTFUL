@@ -198,6 +198,7 @@
     <Compile Include="Controllers\BaseApiController.cs" />
     <Compile Include="Controllers\DiariesController.cs" />
     <Compile Include="Controllers\DiaryEntriesController.cs" />
+    <Compile Include="Controllers\DiarySummaryController.cs" />
     <Compile Include="Models\DiaryEntryModel.cs" />
     <Compile Include="Models\DiaryModel.cs" />
     <Compile Include="Controllers\FoodsController.cs" />
@@ -209,6 +210,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\DiarySummaryModel.cs" />
     <Compile Include="Models\FoodModel.cs" />
     <Compile Include="Models\MeasureModel.cs" />
     <Compile Include="Models\ModelFactory.cs" />
@@ -332,6 +334,7 @@
   <ItemGroup>
     <Folder Include="Views\BaseApi\" />
     <Folder Include="Views\Diaries\" />
+    <Folder Include="Views\DiarySummary\" />
     <Folder Include="Views\Measures\" />
   </ItemGroup>
   <ItemGroup>
